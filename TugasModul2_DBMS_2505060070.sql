@@ -76,7 +76,7 @@ CREATE TABLE `matakuliah` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nama_matakuliah` varchar(100) NOT NULL,
   `jumlah_sks` int(11) NOT NULL,
-  `waktu_dimulai` datetime NOT NULL,
+  `mulai` time NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -99,5 +99,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-02-18 17:16:49
-
+-- Dump completed on 2026-02-23 16:25:29
